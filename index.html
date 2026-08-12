@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Seguranca e Direitos Digitais</title>
+    <style>
+     
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px; /* Fonte ampliada para facilidade de leitura */
+            line-height: 1.6;
+            background-color: #F8F9FA;
+            color: #111111; /* Contraste maximo */
+        }
+
+    
+        a:focus, button:focus {
+            outline: 5px solid #FFCC00 !important;
+            outline-offset: 3px;
+        }
+
+        .navbar {
+            background-color: #002B5B;
+            color: #FFFFFF;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .btn-top-ajuda {
+            background-color: #D9381E;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            border: 2px solid #FFFFFF;
+        }
+
+        .banner-hero {
+            background: linear-gradient(135deg, #003366 0%, #0059B3 100%);
+            color: #FFFFFF;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 8px solid #FFCC00;
+        }
+
+        .banner-conteudo {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .banner-hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .banner-hero p {
+            font-size: 24px;
+            margin-bottom: 35px;
+            color: #E6F0FF;
+        }
+
+        /* BOTAO DE AJUDA COM MAXIMO DESTAQUE */
+        .btn-ajuda-destaque {
+            display: inline-block;
+            background-color: #D9381E; /* Vermelho alerta visivel */
+            color: #FFFFFF;
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 25px 40px;
+            border-radius: 50px;
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: background-color 0.2s;
+        }
+
+        .btn-ajuda-destaque:hover {
+            background-color: #B3240E;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .secao-bloco {
+            margin-bottom: 50px;
+        }
+
+        .secao-titulo {
+            font-size: 32px;
+            color: #002B5B;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 4px solid #002B5B;
+        }
+
+        .card {
+            background-color: #FFFFFF;
+            border: 3px solid #D0D7DE;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            font-size: 26px;
+            color: #002B5B;
+            margin-bottom: 12px;
+        }
+
+        .dica-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .icone-grande {
+            font-size: 35px;
+            line-height: 1;
+        }
+
+        .card-lei {
+            background-color: #EBF3FA;
+            border-left: 8px solid #0059B3;
+        }
+
+        .tag-lei {
+            display: inline-block;
+            background-color: #002B5B;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+
+        .card-golpe {
+            border-left: 8px solid #D9381E;
+            background-color: #FFF5F5;
+        }
+
+        .alerta-titulo {
+            color: #D9381E;
+        }
+
+        .sinal-alerta {
+            background-color: #FFE6E6;
+            border: 2px dashed #D9381E;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #002B5B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar" role="navigation">
+        <a href="#inicio" class="logo">🛡️ Seguranca Digital</a>
+        <a href="#ajuda" class="btn-top-ajuda">🆘 Pedir Ajuda</a>
+    </nav>
+
+    <header id="inicio" class="banner-hero" role="banner">
+        <div class="banner-conteudo">
+            <h1>Sua navegacao na internet pode e deve ser segura</h1>
+            <p>Aprenda a proteger seus dados, conhecer seus direitos e identificar golpes antes que eles acontecam.</p>
+            
+            <a href="tel:190" id="ajuda" class="btn-ajuda-destaque" role="button">
+                📞 PRECISA DE AJUDA AGORA? CLIQUE AQUI
+            </a>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="secao-bloco">
+            <h2 class="secao-titulo">💡 Conselhos Importantes de Seguranca</h2>
+
+            <article class="card">
+                <div class="dica-item">
+                    <span class="icone-grande">🔒</span>
+                    <div>
+                        <h3>Crie Senhas Fortes e Nao Compartilhe</h3>
+                        <p>Evite usar datas de nascimento ou nomes de parentes. Nunca anote senhas em papeis deixados perto do celular ou computador.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="dica-item">
+                    <span class="icone-grande">📵</span>
+                    <div>
+                        <h3>Desconfie de Ligacoes Falsas</h3>
+                        <p>Se alguem ligar dizendo ser do seu banco pedindo senhas, codigos de validacao ou transferencias, <strong>desligue o telefone na hora</strong>.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="dica-item">
+                    <span class="icone-grande">👁️</span>
+                    <div>
+                        <h3>Nao Clique em Links Desconhecidos</h3>
+                        <p>Mensagens com links para rastrear compras que voce nao fez ou premios inesperados costumam ser portas de entrada para roubo de dados.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="secao-bloco">
+            <h2 class="secao-titulo">⚖️ Seus Direitos no Ambiente Digital</h2>
+
+            <article class="card card-lei">
+                <span class="tag-lei">Estatuto da Pessoa Idosa</span>
+                <h3>Direito a Inclusao e Tecnologia Acessivel</h3>
+                <p>A legislacao garante que os idosos tem direito a educacao digital e ao acesso a tecnologias adaptadas as suas necessidades, sem discriminacao ou exclusao pelas plataformas digitais.</p>
+            </article>
+
+            <article class="card card-lei">
+                <span class="tag-lei">LGPD - Lei Geral de Protecao de Dados</span>
+                <h3>Privacidade e Protecao de Dados</h3>
+                <p>Nenhuma empresa ou aplicativo pode usar suas informacoes pessoais, numero de CPF ou fotos sem a sua autorizacao clara. Voce tem o direito de saber como e por que usam seus dados.</p>
+            </article>
+
+            <article class="card card-lei">
+                <span class="tag-lei">Codigo de Defesa do Consumidor</span>
+                <h3>Informacao Clara e Reembolso em Fraudes</h3>
+                <p>Nas compras ou operacoes bancarias virtuais, voce tem direito a informacoes transparentes. Se for vitima de fraude por falha de seguranca do banco, a instituicao financeira e responsavel por reembolsar o valor.</p>
+            </article>
+        </section>
+
+        <section class="secao-bloco">
+            <h2 class="secao-titulo">🚨 Como Identificar se E um Golpe</h2>
+
+            <article class="card card-golpe">
+                <h3 class="alerta-titulo">1. O Golpe do "Parente com Numero Novo"</h3>
+                <p>Voce recebe uma mensagem no WhatsApp: <em>"Oi mae/pai, troquei de numero, me manda um dinheiro urgente para pagar uma conta"</em>.</p>
+                <div class="sinal-alerta">
+                    ⚠️ SINAL DE FRAUDE: O golpista usa o senso de urgencia. <strong>O que fazer:</strong> Ligue para o numero ANTIGO da pessoa e nunca pague nada imediatamente.
+                </div>
+            </article>
+
+            <article class="card card-golpe">
+                <h3 class="alerta-titulo">2. Pedido para Baixar Aplicativo de "Suporte"</h3>
+                <p>Uma ligacao diz que seu celular tem um virus ou que sua conta bancaria foi invadida e pede para voce instalar um aplicativo para resolver.</p>
+                <div class="sinal-alerta">
+                    ⚠️ SINAL DE FRAUDE: Golpistas usam esses programas para controlar o seu celular a distancia e acessar suas contas. Nunca instale aplicativos indicados por estranhos.
+                </div>
+            </article>
+
+            <article class="card card-golpe">
+                <h3 class="alerta-titulo">3. Mensagem de Prova de Vida ou Recadastramento</h3>
+                <p>Avisos por SMS informando que seu beneficio ou aposentadoria sera suspenso se voce nao clicar em um link para fazer recadastramento.</p>
+                <div class="sinal-alerta">
+                    ⚠️ SINAL DE FRAUDE: Orgaos oficiais nao enviam links urgentes de recadastramento por SMS. Procure uma agencia fisica ou o aplicativo oficial.
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>Desenvolvido para garantir uma navegacao segura, simples e acessivel a todas as pessoas idosas.</p>
+    </footer>
+
+</body>
+</html>
