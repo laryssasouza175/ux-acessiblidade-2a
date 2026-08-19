@@ -4,10 +4,15 @@ left: 50%
 tranform: translate(-50%, -50%)
 max-width: 90%
 width: 600px
-margin: 0 !impórtant;
+margin: 0 !important;
 .elemento {
 translate: 50px 20px;
 }
 translate: -30px -10px;
 translate: 100% 0;
- .elemento 
+.elemento  {
+translate: 20px 0;
+rotate: 10deg;
+scale: 1.2;
+}
+transform: translate(50px, 20px);
